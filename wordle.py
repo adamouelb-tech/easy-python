@@ -1,7 +1,4 @@
-#  Easy guess the word game
 import random
-name = input("What is your name: ")
-print(f"Good luck {name}!")
 
 def guess_the_word():
     word_lst = [
@@ -97,4 +94,7 @@ def guess_the_word():
                 print(f"You ran out of lifes. The word was {guess_word}")
                 break
 
-guess_the_word()            
+if __name__ == "__main__":
+    name = input("What is your name: ")
+    print(f"Good luck {name}!")
+    guess_the_word()

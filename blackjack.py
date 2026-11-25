@@ -1,3 +1,4 @@
+#Easy blackjack game
 import random
 
 
