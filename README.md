@@ -15,4 +15,4 @@ Start the game menu:
 python3 main.py
 ```
 
-Choose a number from the menu and press Enter. The available games are Blackjack, Wordle, Calculator, Rock, Paper, Scissors, and Number Guessing. To leave the menu, choose `0`.
+Choose a number from the menu and press Enter. The available games are Blackjack, Wordle, Calculator, Rock, Paper, Scissors, Number Guessing, and Cold or Hot. To leave the menu, choose `0`.

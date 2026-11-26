@@ -1,5 +1,6 @@
 import blackjack
 import calculator
+import cold_or_hot
 import guessing_numbers
 import rock_paper_scissors
 import wordle
@@ -11,6 +12,7 @@ GAMES = {
     "3": ("Calculator", calculator.calculator),
     "4": ("Rock, Paper, Scissors", rock_paper_scissors.main),
     "5": ("Number Guessing", guessing_numbers.guess_number),
+    "6": ("Cold or Hot", cold_or_hot.cold_or_hot),
 }
 
 
